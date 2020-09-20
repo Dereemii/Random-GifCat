@@ -1,24 +1,25 @@
 <template>
   <div id="app">
-    {{ message }}
+   <h1>{{ message }}</h1> 
+    <contador></contador>
   </div>
 </template>
 
 <script>
+import Contador from "./componentes/Contador.vue"
   export default {
     data() {
       return {
-        message: 'Hola en vue',
+        message: 'Cuenta atrás',
       };
+    },
+    components: {Contador},
+    methods:{
+
     }
   }
 </script>
 
 <style scoped>
-  #app {
-    font-size: 25px;
-    font-family: "Calibri", sans-serif;
-    color: darkblue;
-    background: lightblue;
-  }
+ 
 </style>
