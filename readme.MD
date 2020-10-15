@@ -1,6 +1,5 @@
-# BoilerPlate - Vue JS
+# Random Gif-Cat
 
-Este es un entorno de trabajo listo para comenzar cualquier proyecto con VueJS.
+ :smile_cat:  :smiley_cat: :heart_eyes_cat:
 
-  - Instalar node_modules: npm install
-  - npm run serve
+ Generador de gif de gatitos.
